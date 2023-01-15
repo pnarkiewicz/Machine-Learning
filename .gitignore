@@ -4,6 +4,7 @@ build/
 coverage/
 *.spacy
 *output*
+*.DS_Store*
 
 # Logs
 logs
