@@ -11,7 +11,7 @@ The projects include implementations of:
 - Visual Anomaly Detection - https://arxiv.org/pdf/2011.08785.pdf
 - Classification of Genre News using Neural Networks, LSTM, Spacy
 
-## 1. Multi-Head Attention Mechanism
+## 1. ![Multi-Head Attention Mechanism](https://github.com/pnarkiewicz/Machine-Learning/blob/main/Deep%20Neural%20Networks%20-%20Notebooks/Transformer-Attention.ipynb)
 
 The implementation of Multi-Head Attention is a decoder-only version. The notebook includes the implementation of the transformer architecture, its training and inference which at times might be tedious and inefficient. Hence, two solutionswere implemented:
 - inference with cache boosting speed of generation
