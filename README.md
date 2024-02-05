@@ -18,30 +18,30 @@ The implementation of Multi-Head Attention is a decoder-only version. The notebo
 - nucleus sampling increasing the accuracy by keeping top n sequences through generation
 Data used for training and testing purposes was generated synthetically.
 
-## 2. Reinforcement Learning - Bigger Better Faster DQN
+## 2. [Reinforcement Learning - Bigger Better Faster DQN](https://github.com/pnarkiewicz/Machine-Learning/blob/main/Deep%20Neural%20Networks%20-%20Notebooks/Reinforcement-Learning-BFF.ipynb)
 
 The RL Agent trains Deep-Q Network how to correctly land a spaceship on a moon. The BFF improvmenets are based on https://arxiv.org/pdf/2305.19452.pdf and include:
 - n-step buffering - is supposed to encourage DQN to look further into the future
 - resets - DQNs learn often incorrectly on random data, hence, once we have less random dataset we reset DQNs but keep the better data
 - annealing - decreases the discount hyperparameter
 
-## 3. Generative Adversarial Networks
+## 3. [Generative Adversarial Networks](https://github.com/pnarkiewicz/Machine-Learning/blob/main/Deep%20Neural%20Networks%20-%20Notebooks/GAN.ipynb)
 
 Here we train Generator and Discriminator to generate most realistic digits images.
 
-## 4. Variational Autoencoder
+## 4. [Variational Autoencoder](https://github.com/pnarkiewicz/Machine-Learning/blob/main/Deep%20Neural%20Networks%20-%20Notebooks/VAE.ipynb)
 
 Variational Autoencoder tries to generate digits images as GANs and can be used for comparison to see that GANs perform typically better.
 
-## 5. Attack on MobileNet
+## 5. [Attack on MobileNet](https://github.com/pnarkiewicz/Machine-Learning/blob/main/Deep%20Neural%20Networks%20-%20Notebooks/Goldfish-to-shark.ipynb)
 
 The task is to compute a top strip of goldfish image so that the pre-trained MobileNet thinks its shark. I implemented Neural Network where the weights are the top strip that we're supposed to derive.
 
-## 6. Visual Anomaly Detection
+## 6. [Visual Anomaly Detection](https://github.com/pnarkiewicz/Machine-Learning/blob/main/Deep%20Neural%20Networks%20-%20Notebooks/Visual_anomaly_detection.ipynb)
 
 The code is based on a paper - https://arxiv.org/pdf/2011.08785.pdf which describes the PADIM architecture. It's pretty lightweight and up-to ~2021 was state-of-the-art in anomaly detection which is pretty surprising as it "just" computes mean and covariance matrices.
 
-## 7. Genere Classification 
+## 7. [Genere Classification](https://github.com/pnarkiewicz/Machine-Learning/tree/main/genre_classification)
 
 Here I implemented Neural Networks, LSTM and Spacy classification model to test which of the solutions is the best. The task was challenging as there are 27 similar genres to choose from. The baseline Neural Network solution achieved 11% accurcy (likewise Spacy model). LSTMs turned out to be the most accurate with accuracy reaching 41%!
 
